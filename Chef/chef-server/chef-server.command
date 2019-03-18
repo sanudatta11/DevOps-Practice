@@ -24,5 +24,8 @@ knife bootstrap ec2-3-83-154-223.compute-1.amazonaws.com --ssh-user ubuntu --sud
 //Check node
 knife node list
 
-//Update from Workstation
+//Update cookbook
+knife cookbook upload learn_chef_apache2
+
+//Update from Workstation the node
 knife ssh 'name:node1-ubuntu' 'sudo chef-client' --ssh-user ubuntu --ssh-identity-file D:\Chef\chef-001.pem --attribute ec2-3-83-154-223.compute-1.amazonaws.com
