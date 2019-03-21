@@ -1,0 +1,8 @@
+[{
+    "Description": "ova migration",
+    "Format": "ova",
+    "UserBucket": {
+        "S3Bucket": "vmimportcma",
+        "S3Key": "ubuntu_16_04.ova"
+    }
+}]
