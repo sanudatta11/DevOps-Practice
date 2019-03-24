@@ -9,8 +9,8 @@
                 "s3:GetBucketLocation"
             ],
             "Resource": [
-                "arn:aws:s3:::vmimport",
-                "arn:aws:s3:::vmimport/*"
+                "arn:aws:s3:::vmwareimport001",
+                "arn:aws:s3:::vmwareimport001/*"
             ]
         },
         {

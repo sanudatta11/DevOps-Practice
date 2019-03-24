@@ -1,8 +1,8 @@
 [{
-    "Description": "ova migration",
-    "Format": "ova",
+    "Description": "vmdk migration",
+    "Format": "vmdk",
     "UserBucket": {
-        "S3Bucket": "vmimportcma",
-        "S3Key": "ubuntu_16_04.ova"
+        "S3Bucket": "vmwareimport001",
+        "S3Key": "Ubuntu_64-bit-disk1.vmdk"
     }
 }]

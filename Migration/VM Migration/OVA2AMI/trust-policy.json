@@ -3,7 +3,7 @@
     "Statement" : [
         {
             "Effect" : "Allow",
-            "Principal" : {"service" : "vmie.amazonaws.com"},
+            "Principal" : { "Service" : "vmie.amazonaws.com"},
             "Action" : "sts:AssumeRole",
             "Condition" : {
                 "StringEquals" : {
