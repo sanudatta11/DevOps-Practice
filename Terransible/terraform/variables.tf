@@ -52,3 +52,4 @@ variable "asg_hct" {}
 variable "asg_cap" {}
 
 variable "delegation_set" {}
+variable "domain_ext" {}

@@ -12,6 +12,7 @@ cidrs = {
 }
 localip = "54.210.164.210/32"
 domain_name ="terransible"
+domain_ext="ml"
 db_instance_class = "db.t2.micro"
 dbname = "superherodb"
 dbuser = "superhero"
